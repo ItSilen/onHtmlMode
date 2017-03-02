@@ -1,0 +1,186 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	*{margin: 0;padding: 0;}/*可以兼容浏览器问题*/
+	#nav{
+		width: 240px;
+		height: 500px;
+		/*background: #ff00ff;*/
+		margin: 50px 0px 0px 100px;
+		border: 1px solid #ddd;
+		box-shadow:-1px 1px 1px #999;  /*水平 垂直偏移 半径 延伸 颜色*/
+	}
+	#nav ul li{
+		width: 240px;
+		height: 45px;
+		/*border: 1px solid red;*/
+		list-style-type: none;
+		position: relative;
+	}
+	#nav ul li p{
+		width: 230px;
+		height: 45px;
+		/*background: #666;*/
+		font-size: 12px;/*默认16px*/
+		font-family: "微软雅黑";/*默认宋体*/
+		border-bottom: 1px dashed #ddd;
+		margin: 0px 5px;
+		line-height: 45px;
+	}
+	#nav ul li p a{
+		color:#4b4b4b;
+		text-decoration: none;
+		margin: 0px 10px;
+	}
+	#nav ul li p a.first{
+		color: #ff0000;
+	}
+	#nav ul li .con{
+		width: 300px;
+		height: 400px;
+		border: 1px solid #ddd;
+		position: absolute;
+		top:-1px;left:240px;
+		display: none;
+	}
+	#nav ul li .bor_bottom{
+		width: 240px;
+		height: 1px;
+		background: #ddd;
+		position: absolute;
+		bottom: 0;left: 0;
+		display: none;
+	}
+		#nav ul li .bor_top{
+		width: 240px;
+		height: 1px;
+		background: #ddd;
+		position: absolute;
+		top: -1px;left: 0;
+		display: none;
+	}
+	#nav ul li .bor_right{
+		width: 1px;
+		height: 100%;
+		background: #fff;
+		position: absolute;
+		right: -1px;top: 0;
+		display: none;
+	}
+	#nav ul li.curr .con{
+		display: block;
+	}
+	#nav ul li.curr .bor_bottom{
+		display: block;
+	}
+	#nav ul li.curr .bor_top{
+		display: block;
+	}
+	#nav ul li.curr .bor_right{
+		display: block;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="nav">
+		<ul >
+			<li>
+				<p>
+					<span>类</span> <a href="#" class="first">上</a> <a href="#">下</a> <a href="#">左</a> <a href="#">右</a>
+				</p>
+				<div class="con"></div>
+				<div class="bor_bottom"></div>
+				<div class="bor_top"></div>
+				<div class="bor_right"></div>
+			</li>
+			<li>
+				<p>
+					<span>类</span> <a href="#" class="first">上</a> <a href="#">下</a> <a href="#">左</a> <a href="#">右</a>
+				</p>
+				<div class="con"></div>
+				<div class="bor_bottom"></div>
+				<div class="bor_top"></div>
+				<div class="bor_right"></div>
+			</li>
+			<li>
+				<p>
+					<span>类</span> <a href="#" class="first">上</a> <a href="#">下</a> <a href="#">左</a> <a href="#">右</a>
+				</p>
+				<div class="con"><p>aaaaa</p>aaaaaa</div>
+				<div class="bor_bottom"></div>
+				<div class="bor_top"></div>
+				<div class="bor_right"></div>
+			</li>
+			<li>
+				<p>
+					<span>类</span> <a href="#" class="first">上</a> <a href="#">下</a> <a href="#">左</a> <a href="#">右</a>
+				</p>
+				<div class="con"></div>
+				<div class="bor_bottom"></div>
+				<div class="bor_top"></div>
+				<div class="bor_right"></div>
+			</li>
+			<li>
+				<p>
+					<span>类</span> <a href="#" class="first">上</a> <a href="#">下</a> <a href="#">左</a> <a href="#">右</a>
+				</p>
+				<div class="con"></div>
+				<div class="bor_bottom"></div>
+				<div class="bor_top"></div>
+				<div class="bor_right"></div>
+			</li>
+			<li>
+				<p>
+					<span>类</span> <a href="#" class="first">上</a> <a href="#">下</a> <a href="#">左</a> <a href="#">右</a>
+				</p>
+				<div class="con"></div>
+				<div class="bor_bottom"></div>
+				<div class="bor_top"></div>
+				<div class="bor_right"></div>
+			</li>
+			<li>
+				<p>
+					<span>类</span> <a href="#" class="first">上</a> <a href="#">下</a> <a href="#">左</a> <a href="#">右</a>
+				</p>
+				<div class="con"></div>
+				<div class="bor_bottom"></div>
+				<div class="bor_top"></div>
+				<div class="bor_right"></div>
+			</li>
+			<li>
+				<p>
+					<span>类</span> <a href="#" class="first">上</a> <a href="#">下</a> <a href="#">左</a> <a href="#">右</a>
+				</p>
+				<div class="con"></div>
+				<div class="bor_bottom"></div>
+				<div class="bor_top"></div>
+				<div class="bor_right"></div>
+			</li>
+		</ul>
+	</div>
+<script type="text/javascript" src="/js/jquery.js"></script>	
+<script>
+	$("#nav ul li").hover(function(){
+		$(this).addClass("curr").siblings().removeClass("curr");
+		var _top = $(this).position().top;
+		// alert(_top) ;
+		var _height = $(this).find(".con").height()/3;
+		// alert(_height);
+		
+		if(_top>_height){
+			// $(this).find(".con").offset({top:_top-30});
+			$(this).find(".con").css({top:-_height});//花括号可以有多个值要用冒号，不用花括号就用逗号,值如果不是数字要用引号
+		}
+	},
+	function(){
+		$(this).removeClass("curr");
+	}
+		)
+</script>
+</body>
+</html>

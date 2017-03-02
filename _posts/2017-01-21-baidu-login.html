@@ -1,0 +1,86 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	*{margin: 0;padding: 0;}
+	body{background: #ddd;}
+	#web{width: 393px;height: 500px;background: #fff;padding: 5px 10px;top:100px;/*margin:100px auto;*//*left:50%;margin-left:-196px;用js代替，var _left就不会包含margin,*/position: fixed; }
+	#web .title{width: 393px;height: 40px;background: url("/images/16.jpg") no-repeat left center;background-size: 40px 40px; line-height: 40px;text-indent: 45px;font-size: 20px;font-weight: bold;cursor: move;}
+	#web .title i{width: 14px;height: 14px;display: block;background: url("/images/x.jpg") center center; float: right;margin: 8px 20px;}
+	#web .title i:hover{background: url("/images/xx.jpg") center center;cursor: pointer;}
+	#web a.kj{font-size: 12px;display: block;width: 100px;height: 15px;background: url("/images/user.jpg") no-repeat;background-size: 12px 12px; text-indent: 15px;text-decoration: none;color: #666;margin-top: 30px;margin-left: 290px;}
+	#web a.kj:hover{text-decoration: underline;color: #0066ff;}
+	#web form p{margin-top: 15px;}
+	#web form p input.text{height: 40px;width: 350px;padding-left: 10px;font-size: 22px;}
+	#web form p{font-size: 12px;line-height: 20px;}
+	#web form p a{float: right;margin-right: 30px;text-decoration: none;}
+	#web form p input.checkbox{vertical-align: middle;}
+	#web form p input.submit{width: 360px;height: 40px;font-size: 20px;background: #4490f7;color: #fff;border: none;}
+	</style>
+</head>
+<body>
+	<div id="web">
+		<div class="title">
+			登陆百度在账号
+			<i></i>
+		</div>
+
+		<a href="#" class="kj">短信快捷登陆</a>
+		<form action="">
+			<!--html5新增 placeholder不同于value，输入框值不能像value一样点击修改，取得焦点就消失，type如果为color就可以成为选色板 -->
+			<p><input class="text" type="text" placeholder="手机/邮箱/用户名"></p>
+			<p><input class="text" type="password" placeholder="密码"></p>
+			<p><input class="checkbox" type="checkbox" placeholder="密码">下次自动登陆<a href="">忘记密码</a></p>
+			<p><input class="submit" type="submit" placeholder="密码"></p>
+		</form>
+	</div>
+	<script src="/js/jquery.js"></script>
+	<script>
+	var width = $(window).width();
+	var height = $(window).height();
+	$("#web").css({left:width/2-393/2});
+	$("#web .title").mousedown(function(e){
+		var start_left = e.clientX;//鼠标到左边的距离
+		// alert(start_left);
+		var _left = $("#web").offset().left;//获取左边的距离 会把外边距margin也算进去了,点击的时候会自动往左移动margin的距离，所以需要$("#web").css({left:width/2-393/2});这样设置就不会有margin
+		// alert(_left);
+		var start_top = e.clientY;//鼠标到上边的距离
+		// alert(start_left);
+		var _top = $("#web").offset().top;
+		var l = start_left - _left;//等于鼠标到左边的距离
+		var t = start_top - _top;
+		$(document).mousemove(function(e){
+			width = $(window).width();
+			height = $(window).height();
+			var now_left = e.clientX;
+			var now_top = e.clientY;
+			var left = now_left - l;
+			var top = now_top -t;
+			// alert(left)
+			if(left<0){
+				left = 0;
+			}else if(left>(width-393)){
+				left = width - 393;
+			};
+			if(top<0){
+				top = 0
+			}else if(top>(height-500)){
+				top = height - 500;	
+			};
+			$("#web").css({left:left,top:top});
+		});
+		$(document).mouseup(function(e){
+			$(document).unbind("mousemove");
+			$(document).unbind("mouseup");
+		});
+		return false;
+	});
+	$("#web .title i").click(function(){
+		$("#web").hide();
+	})
+	</script>
+</body>
+</html>

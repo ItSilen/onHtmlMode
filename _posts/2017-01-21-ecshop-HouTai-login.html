@@ -1,0 +1,49 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ecshop后台登陆界面</title>
+	<style type="text/css">
+	*{margin: 0px;padding: 0px;}
+	#Top{width: 100%;height:70px;background: #30333c; }	
+	#Top img{width:170px;height: 60px;margin: 5px 20px;}
+	#Main{width: 100%;height: 700px;background: #ccff99;}
+	#Main #mybg{width: 100%;}
+	#Login{width: 400px;height: 380px;background: #fff;position: fixed;top:200px;left: 35%;box-shadow: 0px 0px 10px #666;border-radius: 4px;}
+	#Login p.ti{height: 60px;/*background: #ccffff;*/line-height: 60px;font-weight: bold;font-size: 18px; text-indent: 20px;}
+	#Login .LoginCon{width: 340px;height: 310px;/*background: #ccffff;*/margin: 0 auto 0;}
+	#Login .LoginCon p input.txt{width: 338px;height: 45px;border-radius: 3px;border: 1px solid #ddd;font-family: "Microsoft yahei";text-indent: 40px;}
+	#Login .LoginCon p input.user{background: url("/images/user.jpg") 5px center no-repeat;background-size: 30px 30px; }
+	#Login .LoginCon p input.pwd{background: url("/images/k.jpg") 5px center no-repeat; background-size: 30px 30px; }
+	#Login .LoginCon p input.yzm{background: url("/images/yz.jpg") 5px center no-repeat; background-size: 30px 30px;width: 200px;}
+	#Login .LoginCon p .imgYzm{width: 100px;height:47px;float: right;}
+	#Login .LoginCon p{margin-bottom: 20px;height: 47px;}
+	#Login .LoginCon p input.but{width: 340px;height: 45px;border: none;background: #000;color: #ddd;border-radius: 3px;font-size: 18px;}
+	#Login .LoginCon p.txt{font-size: 14px;color: #666;}
+	#Login .LoginCon p #cbox{vertical-align: middle;}
+	#Login .LoginCon p.txt a{color: #666;text-decoration: none;float:right;}
+	</style>
+</head>
+<body>
+	<div id="Top">
+		<img src="/images/16.jpg" alt="">
+	</div>
+	<div id="Main">
+		<video id="mybg" src="/video/1.mp4" autoplay loop></video>
+	</div>
+	<div id="Login">
+		<p class="ti">登陆</p>
+		<div class="LoginCon">
+			<form action="">
+				<p><input class="txt user" type="text" placeholder="用户名/邮箱/手机号"/></p>
+				<p><input class="txt pwd" type="password" placeholder="请输入密码" /></p>
+				<p><input class="txt yzm" type="text" placeholder="请输入验证码"><img class="imgYzm"src="/images/doc.jpg" alt=""></p>
+				<p><input class="but" type="submit" value="登 陆"></p>
+				<p class="txt"><a href="#">>>忘记密码</a><!-- 为了float兼容放前面 -->
+					<input id="cbox" type="checkbox" /><label for="cbox">记住登陆密码</label></p>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
