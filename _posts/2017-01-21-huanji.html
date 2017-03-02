@@ -10,10 +10,10 @@
 	body{overflow: hidden;}/*可以屏蔽滚动条*/
 	#bg{width: 100%;height: 100%;}
 	#bg div{width: 100%;height: 100%;/*border: 1px solid #ff00cc;*/background-position: center center;background-size:cover ;background-attachment: fixed;}
-	.bg1{background-image: url("/images/12.jpg");}
-	.bg2{background-image: url("/images/11.jpg");}
-	.bg3{background-image: url("/images/18.jpg");}
-	.bg4{background-image: url("/images/14.jpg");}
+	.bg1{background-image: url("images/12.jpg");}
+	.bg2{background-image: url("images/11.jpg");}
+	.bg3{background-image: url("images/18.jpg");}
+	.bg4{background-image: url("images/14.jpg");}
 	#header{width: 100%;height: 50px;/*border: 1px solid #ff00cc;*/position: fixed;top:25px;}
 	#header .logo{width: 226px;height:50px;float: left;margin-left:60px;}
 	#header .nav{width: 400px;height: 48px;/*border: 1px solid #ff00cc; */float: right;margin-right: 60px;position: relative;}
@@ -22,13 +22,13 @@
 	#header .nav .circle{width: 58px;height: 30px;border: 1px solid #fff;border-radius: 16px;position: absolute;top:9px;left: 32px;z-index: -1;/*定位的有层叠关系，不然会盖住a href*/}
 	#slide{width: 100px;height: 330px;border: 1px solid gray;border-radius: 16px 16px 3px 3px;position: fixed;top:30%;left: 60px;/*background: url("images/3.jpg");*//*opacity: 0.8;*//*padding-top: 6px;*/}
 	#slide ul li{list-style-type: none;font-size: 12px;color: #fff;border: 1px solid #fff;border-radius: 9px; padding-left: 45px;line-height: 21px;margin-bottom: 50px; cursor: pointer;}
-	#slide ul li.on{background:url("/images/doc.jpg") center center no-repeat;}
+	#slide ul li.on{background:url("images/doc.jpg") center center no-repeat;}
 	</style>
 </head>
 <body>
 	<!-- 顶部导航 -->
 	<div id="header">
-		<div class="logo"><img src="/images/user.jpg" alt=""></div><!-- logo一般用img，也可background -->
+		<div class="logo"><img src="images/user.jpg" alt=""></div><!-- logo一般用img，也可background -->
 		<div class="nav">
 			<ul>
 				<li><a href="#bg1">首页</a></li>
@@ -57,8 +57,8 @@
 			<li>一键转移</li>
 		</ul>
 	</div>
-	<script typet="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script><!--1.0低版本的支持所有浏览器，2.0高版本的不支持低ie-->
-	<script type="text/javascript" src="/js/jquery.mousewheel.js"></script>
+	<script typet="text/javascript" src="js/jquery.js"></script><!--1.0低版本的支持所有浏览器，2.0高版本的不支持低ie-->
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 	<script>
 	$(function(){
 		// $(document).scrollTop(0);
