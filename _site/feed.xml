@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-03-01T21:18:51+08:00</updated><id>http://localhost:4000/</id><title type="html">MyBlog</title><subtitle></subtitle><entry><title type="html">Tencent Kefu</title><link href="http://localhost:4000/2017/01/21/tencent-KeFu.html" rel="alternate" type="text/html" title="Tencent Kefu" /><published>2017-01-21T00:00:00+08:00</published><updated>2017-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/01/21/tencent-KeFu</id><content type="html" xml:base="http://localhost:4000/2017/01/21/tencent-KeFu.html">&lt;!doctype html&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-03-02T18:20:46+08:00</updated><id>http://localhost:4000/</id><title type="html">MyBlog</title><subtitle></subtitle><entry><title type="html">客服栏</title><link href="http://localhost:4000/2017/01/21/tencent-KeFu.html" rel="alternate" type="text/html" title="客服栏" /><published>2017-01-21T00:00:00+08:00</published><updated>2017-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/01/21/tencent-KeFu</id><content type="html" xml:base="http://localhost:4000/2017/01/21/tencent-KeFu.html">&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -6,12 +6,12 @@
 	&lt;style type=&quot;text/css&quot;&gt;
 	*{margin: 0;padding: 0;}
 	/*图像拼合技术 一张图片left0 top-300px 放入宽度100%高度360的div，再把图片size扩到100%*/
-	#web{width: 100%;height: 360px;background: url(&quot;/images/10.jpg&quot;) 0 -300px;background-size:100%;padding-top: 50px;}
-	#web .content{width: 969px;height: 300px;background: url(&quot;/images/12.jpg&quot;) 0 -70px;background-size:100%;margin: 0px auto;position: relative;}
+	#web{width: 100%;height: 360px;background: url(&quot;https://itsilen.github.io/onHtmlMode/images/10.jpg&quot;) 0 -300px;background-size:100%;padding-top: 50px;}
+	#web .content{width: 969px;height: 300px;background: url(&quot;https://itsilen.github.io/onHtmlMode/images/12.jpg&quot;) 0 -70px;background-size:100%;margin: 0px auto;position: relative;}
 	#web .content ul li{width: 240px;height: 300px;/*background:red*/;list-style-type: none;float: left;border:1px solid gray;border-radius:3px;text-align: center;color:white;}
-	#web .content ul li .pic{width:120px;height: 120px;background:url(&quot;/images/user.jpg&quot;) top center no-repeat;opacity:0.8;background-size:100%;margin: 60px auto 0;border-radius:3px;animation:spin 6000ms 2s infinite}
+	#web .content ul li .pic{width:120px;height: 120px;background:url(&quot;https://itsilen.github.io/onHtmlMode/images/user.jpg&quot;) top center no-repeat;opacity:0.8;background-size:100%;margin: 60px auto 0;border-radius:3px;animation:spin 6000ms 2s infinite}
 	#web .content ul li .pic:hover{border: 2px solid green;}
-	#web .content .con{width: 969px;height: 300px;background: url(&quot;/images/1.jpg&quot;) 0 -70px;background-size:100%;margin: 0px auto;position: absolute;top: 0;left: 0;display: none;}
+	#web .content .con{width: 969px;height: 300px;background: url(&quot;https://itsilen.github.io/onHtmlMode/images/1.jpg&quot;) 0 -70px;background-size:100%;margin: 0px auto;position: absolute;top: 0;left: 0;display: none;}
 	#web .content .but{width: 150px;height: 30px;	background: #ddd;position: absolute;bottom: 10px;right: 10px;text-align: center;line-height: 30px;border-radius:3px;}
 	#web .content .but:hover{border: 1px solid green;}
 	@keyframes spin{
@@ -47,14 +47,14 @@
 				&lt;/li&gt;
 				&lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;
 			&lt;/ul&gt;
-			&lt;div class=&quot;con&quot; style=&quot;background:url('/images/1.jpg') 0 -70px;background-size:100%;&quot;&gt;&lt;/div&gt;
-			&lt;div class=&quot;con&quot; style=&quot;background:url('/images/2.jpg') 0 -70px;background-size:100%;&quot;&gt;&lt;/div&gt;
-			&lt;div class=&quot;con&quot; style=&quot;background:url('/images/3.jpg') 0 -70px;background-size:100%;&quot;&gt;&lt;/div&gt;
-			&lt;div class=&quot;con&quot; style=&quot;background:url('/images/4.jpg') 0 -70px;background-size:100%;&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;con&quot; style=&quot;background:url('https://itsilen.github.io/onHtmlMode/images/1.jpg') 0 -70px;background-size:100%;&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;con&quot; style=&quot;background:url('https://itsilen.github.io/onHtmlMode/images/2.jpg') 0 -70px;background-size:100%;&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;con&quot; style=&quot;background:url('https://itsilen.github.io/onHtmlMode/images/3.jpg') 0 -70px;background-size:100%;&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;con&quot; style=&quot;background:url('https://itsilen.github.io/onHtmlMode/images/4.jpg') 0 -70px;background-size:100%;&quot;&gt;&lt;/div&gt;
 			&lt;div class=&quot;but&quot;&gt;返回&lt;/div&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;script src=&quot;/js/jquery.js&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;https://itsilen.github.io/onHtmlMode/js/jquery.js&quot;&gt;&lt;/script&gt;
 	&lt;script&gt;
 		var _index = 0;
 		$(&quot;#web .content ul li .pic&quot;).click(function(){
@@ -76,7 +76,7 @@
 
 	&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><summary type="html">Document DNF CS TENCENT QQ 百度 淘宝 返回 var _index = 0; $(&quot;#web .content ul li .pic&quot;).click(function(){ _index = $(this).parents().index(); // alert(_index); $(&quot;#web .content .con&quot;).eq(_index).fadeIn().siblings(&quot;.con&quot;).fadeOut(); }) $(&quot;#web .content .but&quot;).click(function(){ $(&quot;#web .content .con&quot;).eq(_index).fadeOut(); $(&quot;#web .content ul li .pic&quot;).fadeIn(); }) $(&quot;#web .content ul li .pic&quot;).hover(function(){ $(this).css({&quot;animation&quot;:&quot;paused&quot;})}, function(){ $(this).css({&quot;animation&quot;:&quot;spin 6s 2s infinite&quot;}) } )</summary></entry><entry><title type="html">Mgujie Erji Daohang</title><link href="http://localhost:4000/2017/01/21/mgujie-ErJi-DaoHang.html" rel="alternate" type="text/html" title="Mgujie Erji Daohang" /><published>2017-01-21T00:00:00+08:00</published><updated>2017-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/01/21/mgujie-ErJi-DaoHang</id><content type="html" xml:base="http://localhost:4000/2017/01/21/mgujie-ErJi-DaoHang.html">&lt;!doctype html&gt;
+&lt;/html&gt;</content><author><name></name></author><summary type="html">Document DNF CS TENCENT QQ 百度 淘宝 返回 var _index = 0; $(&quot;#web .content ul li .pic&quot;).click(function(){ _index = $(this).parents().index(); // alert(_index); $(&quot;#web .content .con&quot;).eq(_index).fadeIn().siblings(&quot;.con&quot;).fadeOut(); }) $(&quot;#web .content .but&quot;).click(function(){ $(&quot;#web .content .con&quot;).eq(_index).fadeOut(); $(&quot;#web .content ul li .pic&quot;).fadeIn(); }) $(&quot;#web .content ul li .pic&quot;).hover(function(){ $(this).css({&quot;animation&quot;:&quot;paused&quot;})}, function(){ $(this).css({&quot;animation&quot;:&quot;spin 6s 2s infinite&quot;}) } )</summary></entry><entry><title type="html">二级导航</title><link href="http://localhost:4000/2017/01/21/mgujie-ErJi-DaoHang.html" rel="alternate" type="text/html" title="二级导航" /><published>2017-01-21T00:00:00+08:00</published><updated>2017-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/01/21/mgujie-ErJi-DaoHang</id><content type="html" xml:base="http://localhost:4000/2017/01/21/mgujie-ErJi-DaoHang.html">&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -240,7 +240,7 @@
 			&lt;/li&gt;
 		&lt;/ul&gt;
 	&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;/js/jquery.js&quot;&gt;&lt;/script&gt;	
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://itsilen.github.io/onHtmlMode/js/jquery.js&quot;&gt;&lt;/script&gt;	
 &lt;script&gt;
 	$(&quot;#nav ul li&quot;).hover(function(){
 		$(this).addClass(&quot;curr&quot;).siblings().removeClass(&quot;curr&quot;);
@@ -260,7 +260,7 @@
 		)
 &lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><summary type="html">Document *{margin: 0;padding: 0;}/*可以兼容浏览器问题*/ #nav{ width: 240px; height: 500px; /*background: #ff00ff;*/ margin: 50px 0px 0px 100px; border: 1px solid #ddd; box-shadow:-1px 1px 1px #999; /*水平 垂直偏移 半径 延伸 颜色*/ } #nav ul li{ width: 240px; height: 45px; /*border: 1px solid red;*/ list-style-type: none; position: relative; } #nav ul li p{ width: 230px; height: 45px; /*background: #666;*/ font-size: 12px;/*默认16px*/ font-family: &quot;微软雅黑&quot;;/*默认宋体*/ border-bottom: 1px dashed #ddd; margin: 0px 5px; line-height: 45px; } #nav ul li p a{ color:#4b4b4b; text-decoration: none; margin: 0px 10px; } #nav ul li p a.first{ color: #ff0000; } #nav ul li .con{ width: 300px; height: 400px; border: 1px solid #ddd; position: absolute; top:-1px;left:240px; display: none; } #nav ul li .bor_bottom{ width: 240px; height: 1px; background: #ddd; position: absolute; bottom: 0;left: 0; display: none; } #nav ul li .bor_top{ width: 240px; height: 1px; background: #ddd; position: absolute; top: -1px;left: 0; display: none; } #nav ul li .bor_right{ width: 1px; height: 100%; background: #fff; position: absolute; right: -1px;top: 0; display: none; } #nav ul li.curr .con{ display: block; } #nav ul li.curr .bor_bottom{ display: block; } #nav ul li.curr .bor_top{ display: block; } #nav ul li.curr .bor_right{ display: block; }</summary></entry><entry><title type="html">Jdbjjg</title><link href="http://localhost:4000/2017/01/21/jdbjjg.html" rel="alternate" type="text/html" title="Jdbjjg" /><published>2017-01-21T00:00:00+08:00</published><updated>2017-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/01/21/jdbjjg</id><content type="html" xml:base="http://localhost:4000/2017/01/21/jdbjjg.html">&lt;!doctype html&gt;
+&lt;/html&gt;</content><author><name></name></author><summary type="html">Document *{margin: 0;padding: 0;}/*可以兼容浏览器问题*/ #nav{ width: 240px; height: 500px; /*background: #ff00ff;*/ margin: 50px 0px 0px 100px; border: 1px solid #ddd; box-shadow:-1px 1px 1px #999; /*水平 垂直偏移 半径 延伸 颜色*/ } #nav ul li{ width: 240px; height: 45px; /*border: 1px solid red;*/ list-style-type: none; position: relative; } #nav ul li p{ width: 230px; height: 45px; /*background: #666;*/ font-size: 12px;/*默认16px*/ font-family: &quot;微软雅黑&quot;;/*默认宋体*/ border-bottom: 1px dashed #ddd; margin: 0px 5px; line-height: 45px; } #nav ul li p a{ color:#4b4b4b; text-decoration: none; margin: 0px 10px; } #nav ul li p a.first{ color: #ff0000; } #nav ul li .con{ width: 300px; height: 400px; border: 1px solid #ddd; position: absolute; top:-1px;left:240px; display: none; } #nav ul li .bor_bottom{ width: 240px; height: 1px; background: #ddd; position: absolute; bottom: 0;left: 0; display: none; } #nav ul li .bor_top{ width: 240px; height: 1px; background: #ddd; position: absolute; top: -1px;left: 0; display: none; } #nav ul li .bor_right{ width: 1px; height: 100%; background: #fff; position: absolute; right: -1px;top: 0; display: none; } #nav ul li.curr .con{ display: block; } #nav ul li.curr .bor_bottom{ display: block; } #nav ul li.curr .bor_top{ display: block; } #nav ul li.curr .bor_right{ display: block; }</summary></entry><entry><title type="html">聊天界面</title><link href="http://localhost:4000/2017/01/21/jdbjjg.html" rel="alternate" type="text/html" title="聊天界面" /><published>2017-01-21T00:00:00+08:00</published><updated>2017-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/01/21/jdbjjg</id><content type="html" xml:base="http://localhost:4000/2017/01/21/jdbjjg.html">&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -295,7 +295,7 @@
 	&lt;!-- 初级思路 --&gt;
 	&lt;div class=&quot;demo1&quot;&gt;
 		&lt;div class=&quot;left&quot;&gt;
-			&lt;img src=&quot;/images/user.jpg&quot; alt=&quot;&quot;&gt;
+			&lt;img src=&quot;https://itsilen.github.io/onHtmlMode/images/user.jpg&quot; alt=&quot;&quot;&gt;
 		&lt;/div&gt;
 		&lt;div class=&quot;right&quot;&gt;
 			&lt;h6&gt;somebody&lt;/h6&gt;
@@ -315,7 +315,7 @@
 	&lt;br&gt;&lt;br&gt;
 	&lt;!-- 中级思路 --&gt;
 	&lt;div class=&quot;demo2&quot;&gt;
-		&lt;img src=&quot;/images/user.jpg&quot; alt=&quot;&quot;&gt;
+		&lt;img src=&quot;https://itsilen.github.io/onHtmlMode/images/user.jpg&quot; alt=&quot;&quot;&gt;
 		&lt;div class=&quot;right&quot;&gt;
 			&lt;h6&gt;somebody&lt;/h6&gt;
 			&lt;p&gt;sometextsometexe
@@ -334,7 +334,7 @@
 	&lt;br&gt;&lt;br&gt;
 	&lt;!-- 高级思路 结构最简单 先从结构上去考虑 然后从结构上只通过样式去改变布局--&gt;
 	&lt;div class=&quot;demo3&quot;&gt;
-		&lt;img src=&quot;/images/user.jpg&quot; alt=&quot;&quot;&gt;
+		&lt;img src=&quot;https://itsilen.github.io/onHtmlMode/images/user.jpg&quot; alt=&quot;&quot;&gt;
 		&lt;h6&gt;somebody&lt;/h6&gt;
 		&lt;p&gt;sometextsometexe
 				textsometextsometexe
@@ -349,21 +349,21 @@
 		&lt;span&gt;10分钟之前&lt;/span&gt;
 	&lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><summary type="html">Document</summary></entry><entry><title type="html">Huanji</title><link href="http://localhost:4000/2017/01/21/huanji.html" rel="alternate" type="text/html" title="Huanji" /><published>2017-01-21T00:00:00+08:00</published><updated>2017-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/01/21/huanji</id><content type="html" xml:base="http://localhost:4000/2017/01/21/huanji.html">&lt;!doctype html&gt;
+&lt;/html&gt;</content><author><name></name></author><summary type="html">Document</summary></entry><entry><title type="html">换机界面</title><link href="http://localhost:4000/2017/01/21/huanji.html" rel="alternate" type="text/html" title="换机界面" /><published>2017-01-21T00:00:00+08:00</published><updated>2017-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/01/21/huanji</id><content type="html" xml:base="http://localhost:4000/2017/01/21/huanji.html">&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;title&gt;Document&lt;/title&gt;
+	&lt;title&gt;换机界面&lt;/title&gt;
 	&lt;style type=&quot;text/css&quot;&gt;
 	*{margin: 0px;padding: 0px;font-family: &quot;微软雅黑&quot;;}
 	html, body{height: 100%;}
 	body{overflow: hidden;}/*可以屏蔽滚动条*/
 	#bg{width: 100%;height: 100%;}
 	#bg div{width: 100%;height: 100%;/*border: 1px solid #ff00cc;*/background-position: center center;background-size:cover ;background-attachment: fixed;}
-	.bg1{background-image: url(&quot;/images/12.jpg&quot;);}
-	.bg2{background-image: url(&quot;/images/11.jpg&quot;);}
-	.bg3{background-image: url(&quot;/images/18.jpg&quot;);}
-	.bg4{background-image: url(&quot;/images/14.jpg&quot;);}
+	.bg1{background-image: url(&quot;https://itsilen.github.io/onHtmlMode/images/12.jpg&quot;);}
+	.bg2{background-image: url(&quot;https://itsilen.github.io/onHtmlMode/images/11.jpg&quot;);}
+	.bg3{background-image: url(&quot;https://itsilen.github.io/onHtmlMode/images/18.jpg&quot;);}
+	.bg4{background-image: url(&quot;https://itsilen.github.io/onHtmlMode/images/14.jpg&quot;);}
 	#header{width: 100%;height: 50px;/*border: 1px solid #ff00cc;*/position: fixed;top:25px;}
 	#header .logo{width: 226px;height:50px;float: left;margin-left:60px;}
 	#header .nav{width: 400px;height: 48px;/*border: 1px solid #ff00cc; */float: right;margin-right: 60px;position: relative;}
@@ -372,13 +372,13 @@
 	#header .nav .circle{width: 58px;height: 30px;border: 1px solid #fff;border-radius: 16px;position: absolute;top:9px;left: 32px;z-index: -1;/*定位的有层叠关系，不然会盖住a href*/}
 	#slide{width: 100px;height: 330px;border: 1px solid gray;border-radius: 16px 16px 3px 3px;position: fixed;top:30%;left: 60px;/*background: url(&quot;images/3.jpg&quot;);*//*opacity: 0.8;*//*padding-top: 6px;*/}
 	#slide ul li{list-style-type: none;font-size: 12px;color: #fff;border: 1px solid #fff;border-radius: 9px; padding-left: 45px;line-height: 21px;margin-bottom: 50px; cursor: pointer;}
-	#slide ul li.on{background:url(&quot;/images/doc.jpg&quot;) center center no-repeat;}
+	#slide ul li.on{background:url(&quot;https://itsilen.github.io/onHtmlMode/images/doc.jpg&quot;) center center no-repeat;}
 	&lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 	&lt;!-- 顶部导航 --&gt;
 	&lt;div id=&quot;header&quot;&gt;
-		&lt;div class=&quot;logo&quot;&gt;&lt;img src=&quot;/images/user.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;!-- logo一般用img，也可background --&gt;
+		&lt;div class=&quot;logo&quot;&gt;&lt;img src=&quot;https://itsilen.github.io/onHtmlMode/images/user.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;!-- logo一般用img，也可background --&gt;
 		&lt;div class=&quot;nav&quot;&gt;
 			&lt;ul&gt;
 				&lt;li&gt;&lt;a href=&quot;#bg1&quot;&gt;首页&lt;/a&gt;&lt;/li&gt;
@@ -407,8 +407,8 @@
 			&lt;li&gt;一键转移&lt;/li&gt;
 		&lt;/ul&gt;
 	&lt;/div&gt;
-	&lt;script typet=&quot;text/javascript&quot; src=&quot;http://libs.baidu.com/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;!--1.0低版本的支持所有浏览器，2.0高版本的不支持低ie--&gt;
-	&lt;script type=&quot;text/javascript&quot; src=&quot;/js/jquery.mousewheel.js&quot;&gt;&lt;/script&gt;
+	&lt;script typet=&quot;text/javascript&quot; src=&quot;https://itsilen.github.io/onHtmlMode/js/jquery.js&quot;&gt;&lt;/script&gt;&lt;!--1.0低版本的支持所有浏览器，2.0高版本的不支持低ie--&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;https://itsilen.github.io/onHtmlMode/js/jquery.mousewheel.js&quot;&gt;&lt;/script&gt;
 	&lt;script&gt;
 	$(function(){
 		// $(document).scrollTop(0);
@@ -470,7 +470,7 @@
 	})
 	&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><summary type="html">Document 首页 常见问题 论坛 360首页&gt;&gt; 安全换机 无网对传 隐私粉碎 一键转移</summary></entry><entry><title type="html">Ecshop Houtai Login</title><link href="http://localhost:4000/2017/01/21/ecshop-HouTai-login.html" rel="alternate" type="text/html" title="Ecshop Houtai Login" /><published>2017-01-21T00:00:00+08:00</published><updated>2017-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/01/21/ecshop-HouTai-login</id><content type="html" xml:base="http://localhost:4000/2017/01/21/ecshop-HouTai-login.html">&lt;!doctype html&gt;
+&lt;/html&gt;</content><author><name></name></author><summary type="html">换机界面 首页 常见问题 论坛 360首页&gt;&gt; 安全换机 无网对传 隐私粉碎 一键转移</summary></entry><entry><title type="html">Ecshop后台登陆界面</title><link href="http://localhost:4000/2017/01/21/ecshop-HouTai-login.html" rel="alternate" type="text/html" title="Ecshop后台登陆界面" /><published>2017-01-21T00:00:00+08:00</published><updated>2017-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/01/21/ecshop-HouTai-login</id><content type="html" xml:base="http://localhost:4000/2017/01/21/ecshop-HouTai-login.html">&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -485,9 +485,9 @@
 	#Login p.ti{height: 60px;/*background: #ccffff;*/line-height: 60px;font-weight: bold;font-size: 18px; text-indent: 20px;}
 	#Login .LoginCon{width: 340px;height: 310px;/*background: #ccffff;*/margin: 0 auto 0;}
 	#Login .LoginCon p input.txt{width: 338px;height: 45px;border-radius: 3px;border: 1px solid #ddd;font-family: &quot;Microsoft yahei&quot;;text-indent: 40px;}
-	#Login .LoginCon p input.user{background: url(&quot;/images/user.jpg&quot;) 5px center no-repeat;background-size: 30px 30px; }
-	#Login .LoginCon p input.pwd{background: url(&quot;/images/k.jpg&quot;) 5px center no-repeat; background-size: 30px 30px; }
-	#Login .LoginCon p input.yzm{background: url(&quot;/images/yz.jpg&quot;) 5px center no-repeat; background-size: 30px 30px;width: 200px;}
+	#Login .LoginCon p input.user{background: url(&quot;https://itsilen.github.io/onHtmlMode/images/user.jpg&quot;) 5px center no-repeat;background-size: 30px 30px; }
+	#Login .LoginCon p input.pwd{background: url(&quot;https://itsilen.github.io/onHtmlMode/images/k.jpg&quot;) 5px center no-repeat; background-size: 30px 30px; }
+	#Login .LoginCon p input.yzm{background: url(&quot;https://itsilen.github.io/onHtmlMode/images/yz.jpg&quot;) 5px center no-repeat; background-size: 30px 30px;width: 200px;}
 	#Login .LoginCon p .imgYzm{width: 100px;height:47px;float: right;}
 	#Login .LoginCon p{margin-bottom: 20px;height: 47px;}
 	#Login .LoginCon p input.but{width: 340px;height: 45px;border: none;background: #000;color: #ddd;border-radius: 3px;font-size: 18px;}
@@ -498,10 +498,10 @@
 &lt;/head&gt;
 &lt;body&gt;
 	&lt;div id=&quot;Top&quot;&gt;
-		&lt;img src=&quot;/images/16.jpg&quot; alt=&quot;&quot;&gt;
+		&lt;img src=&quot;https://itsilen.github.io/onHtmlMode/images/16.jpg&quot; alt=&quot;&quot;&gt;
 	&lt;/div&gt;
 	&lt;div id=&quot;Main&quot;&gt;
-		&lt;video id=&quot;mybg&quot; src=&quot;/video/1.mp4&quot; autoplay loop&gt;&lt;/video&gt;
+		&lt;video id=&quot;mybg&quot; src=&quot;https://itsilen.github.io/onHtmlMode/video/1.mp4&quot; autoplay loop&gt;&lt;/video&gt;
 	&lt;/div&gt;
 	&lt;div id=&quot;Login&quot;&gt;
 		&lt;p class=&quot;ti&quot;&gt;登陆&lt;/p&gt;
@@ -509,7 +509,7 @@
 			&lt;form action=&quot;&quot;&gt;
 				&lt;p&gt;&lt;input class=&quot;txt user&quot; type=&quot;text&quot; placeholder=&quot;用户名/邮箱/手机号&quot;/&gt;&lt;/p&gt;
 				&lt;p&gt;&lt;input class=&quot;txt pwd&quot; type=&quot;password&quot; placeholder=&quot;请输入密码&quot; /&gt;&lt;/p&gt;
-				&lt;p&gt;&lt;input class=&quot;txt yzm&quot; type=&quot;text&quot; placeholder=&quot;请输入验证码&quot;&gt;&lt;img class=&quot;imgYzm&quot;src=&quot;/images/doc.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+				&lt;p&gt;&lt;input class=&quot;txt yzm&quot; type=&quot;text&quot; placeholder=&quot;请输入验证码&quot;&gt;&lt;img class=&quot;imgYzm&quot;src=&quot;https://itsilen.github.io/onHtmlMode/images/doc.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 				&lt;p&gt;&lt;input class=&quot;but&quot; type=&quot;submit&quot; value=&quot;登 陆&quot;&gt;&lt;/p&gt;
 				&lt;p class=&quot;txt&quot;&gt;&lt;a href=&quot;#&quot;&gt;&gt;&gt;忘记密码&lt;/a&gt;&lt;!-- 为了float兼容放前面 --&gt;
 					&lt;input id=&quot;cbox&quot; type=&quot;checkbox&quot; /&gt;&lt;label for=&quot;cbox&quot;&gt;记住登陆密码&lt;/label&gt;&lt;/p&gt;
@@ -517,7 +517,7 @@
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><summary type="html">Ecshop后台登陆界面 登陆 &gt;&gt;忘记密码 记住登陆密码</summary></entry><entry><title type="html">Bootstrap Xysym</title><link href="http://localhost:4000/2017/01/21/bootstrap-xysym.html" rel="alternate" type="text/html" title="Bootstrap Xysym" /><published>2017-01-21T00:00:00+08:00</published><updated>2017-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/01/21/bootstrap-xysym</id><content type="html" xml:base="http://localhost:4000/2017/01/21/bootstrap-xysym.html">&lt;!doctype html&gt;
+&lt;/html&gt;</content><author><name></name></author><summary type="html">Ecshop后台登陆界面 登陆 &gt;&gt;忘记密码 记住登陆密码</summary></entry><entry><title type="html">响应式页面</title><link href="http://localhost:4000/2017/01/21/bootstrap-xysym.html" rel="alternate" type="text/html" title="响应式页面" /><published>2017-01-21T00:00:00+08:00</published><updated>2017-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/01/21/bootstrap-xysym</id><content type="html" xml:base="http://localhost:4000/2017/01/21/bootstrap-xysym.html">&lt;!doctype html&gt;
 &lt;html lang=&quot;zh-CN&quot;&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;&lt;!-- 万国码 --&gt;
@@ -525,9 +525,9 @@
     &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1 user-scalable=no&quot;&gt;&lt;!-- 视口，页面宽度等于设备宽度，页面缩放比例为1,禁止用户手动缩放--&gt;
 	&lt;title&gt;自适应网站页面&lt;/title&gt;
 	&lt;!-- bootstrap所需文件 --&gt;
-	&lt;link rel=&quot;stylesheet&quot;  href=&quot;/bootstrap/css/bootstrap.css&quot;&gt;
-	&lt;script type=&quot;text/javascript&quot; src=&quot;/bootstrap/js/jquery.js&quot;&gt;&lt;/script&gt;
-	&lt;script type=&quot;text/javascript&quot; src=&quot;/bootstrap/js/bootstrap.js&quot;&gt;&lt;/script&gt;
+	&lt;link rel=&quot;stylesheet&quot;  href=&quot;https://itsilen.github.io/onHtmlMode/bootstrap/css/bootstrap.css&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;https://itsilen.github.io/onHtmlMode/bootstrap/js/jquery.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;https://itsilen.github.io/onHtmlMode/bootstrap/js/bootstrap.js&quot;&gt;&lt;/script&gt;
 	&lt;style type=&quot;text/css&quot;&gt;
 	.hd{margin-bottom: 0;}
 	.h1{margin-top:0;}
@@ -577,13 +577,13 @@
   &lt;!-- Wrapper for slides --&gt;
   &lt;div class=&quot;carousel-inner&quot; role=&quot;listbox&quot;&gt;
     &lt;div class=&quot;item active&quot;&gt;
-      &lt;img src=&quot;/images/12.jpg&quot; alt=&quot;1.jpg&quot; class=&quot;center-block&quot;&gt;
+      &lt;img src=&quot;https://itsilen.github.io/onHtmlMode/images/12.jpg&quot; alt=&quot;1.jpg&quot; class=&quot;center-block&quot;&gt;
       &lt;div class=&quot;carousel-caption&quot;&gt;
         
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;item&quot;&gt;
-      &lt;img src=&quot;/images/18.jpg&quot; height=&quot;380px&quot; width=&quot;515px&quot; alt=&quot;2.jpg&quot; class=&quot;center-block&quot;&gt;
+      &lt;img src=&quot;https://itsilen.github.io/onHtmlMode/images/18.jpg&quot; height=&quot;380px&quot; width=&quot;515px&quot; alt=&quot;2.jpg&quot; class=&quot;center-block&quot;&gt;
       &lt;div class=&quot;carousel-caption&quot;&gt;
        
       &lt;/div&gt;
@@ -605,7 +605,7 @@
 		&lt;div class=&quot;row&quot;&gt;
 		  &lt;div class=&quot;col-sm-6 col-xs-12&quot;&gt;
 		    &lt;div class=&quot;thumbnail&quot;&gt;
-		      &lt;img src=&quot;/images/15.jpg&quot; alt=&quot;...&quot;&gt;
+		      &lt;img src=&quot;https://itsilen.github.io/onHtmlMode/images/15.jpg&quot; alt=&quot;...&quot;&gt;
 		      &lt;div class=&quot;caption&quot;&gt;
 		        &lt;h5&gt;系统讲解&lt;/h5&gt;
 		      &lt;/div&gt;
@@ -613,7 +613,7 @@
 		  &lt;/div&gt;
 		  &lt;div class=&quot;col-sm-6 col-xs-12&quot;&gt;
 		    &lt;div class=&quot;thumbnail&quot;&gt;
-		      &lt;img src=&quot;/images/15.jpg&quot; alt=&quot;...&quot;&gt;
+		      &lt;img src=&quot;https://itsilen.github.io/onHtmlMode/images/15.jpg&quot; alt=&quot;...&quot;&gt;
 		      &lt;div class=&quot;caption&quot;&gt;
 		        &lt;h5&gt;系统讲解&lt;/h5&gt;
 		      &lt;/div&gt;
@@ -621,7 +621,7 @@
 		  &lt;/div&gt;
 		  &lt;div class=&quot;col-sm-6 col-xs-12&quot;&gt;
 		    &lt;div class=&quot;thumbnail&quot;&gt;
-		      &lt;img src=&quot;/images/15.jpg&quot; alt=&quot;...&quot;&gt;
+		      &lt;img src=&quot;https://itsilen.github.io/onHtmlMode/images/15.jpg&quot; alt=&quot;...&quot;&gt;
 		      &lt;div class=&quot;caption&quot;&gt;
 		        &lt;h5&gt;系统讲解&lt;/h5&gt;
 		      &lt;/div&gt;
@@ -629,7 +629,7 @@
 		  &lt;/div&gt;
 		  &lt;div class=&quot;col-sm-6 col-xs-12&quot;&gt;
 		    &lt;div class=&quot;thumbnail&quot;&gt;
-		      &lt;img src=&quot;/images/15.jpg&quot; alt=&quot;...&quot;&gt;
+		      &lt;img src=&quot;https://itsilen.github.io/onHtmlMode/images/15.jpg&quot; alt=&quot;...&quot;&gt;
 		      &lt;div class=&quot;caption&quot;&gt;
 		        &lt;h5&gt;系统讲解&lt;/h5&gt;
 		      &lt;/div&gt;
@@ -656,7 +656,7 @@
 本项目源码受 MIT开源协议保护，文档受 CC BY 3.0 开源协议保护。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><summary type="html">自适应网站页面 Toggle navigation 后盾网</summary></entry><entry><title type="html">Baidu Login</title><link href="http://localhost:4000/2017/01/21/baidu-login.html" rel="alternate" type="text/html" title="Baidu Login" /><published>2017-01-21T00:00:00+08:00</published><updated>2017-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/01/21/baidu-login</id><content type="html" xml:base="http://localhost:4000/2017/01/21/baidu-login.html">&lt;!doctype html&gt;
+&lt;/html&gt;</content><author><name></name></author><summary type="html">自适应网站页面 Toggle navigation 后盾网</summary></entry><entry><title type="html">百度登陆框</title><link href="http://localhost:4000/2017/01/21/baidu-login.html" rel="alternate" type="text/html" title="百度登陆框" /><published>2017-01-21T00:00:00+08:00</published><updated>2017-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/01/21/baidu-login</id><content type="html" xml:base="http://localhost:4000/2017/01/21/baidu-login.html">&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -665,10 +665,10 @@
 	*{margin: 0;padding: 0;}
 	body{background: #ddd;}
 	#web{width: 393px;height: 500px;background: #fff;padding: 5px 10px;top:100px;/*margin:100px auto;*//*left:50%;margin-left:-196px;用js代替，var _left就不会包含margin,*/position: fixed; }
-	#web .title{width: 393px;height: 40px;background: url(&quot;/images/16.jpg&quot;) no-repeat left center;background-size: 40px 40px; line-height: 40px;text-indent: 45px;font-size: 20px;font-weight: bold;cursor: move;}
-	#web .title i{width: 14px;height: 14px;display: block;background: url(&quot;/images/x.jpg&quot;) center center; float: right;margin: 8px 20px;}
-	#web .title i:hover{background: url(&quot;/images/xx.jpg&quot;) center center;cursor: pointer;}
-	#web a.kj{font-size: 12px;display: block;width: 100px;height: 15px;background: url(&quot;/images/user.jpg&quot;) no-repeat;background-size: 12px 12px; text-indent: 15px;text-decoration: none;color: #666;margin-top: 30px;margin-left: 290px;}
+	#web .title{width: 393px;height: 40px;background: url(&quot;https://itsilen.github.io/onHtmlMode/images/16.jpg&quot;) no-repeat left center;background-size: 40px 40px; line-height: 40px;text-indent: 45px;font-size: 20px;font-weight: bold;cursor: move;}
+	#web .title i{width: 14px;height: 14px;display: block;background: url(&quot;https://itsilen.github.io/onHtmlMode/images/x.jpg&quot;) center center; float: right;margin: 8px 20px;}
+	#web .title i:hover{background: url(&quot;https://itsilen.github.io/onHtmlMode/images/xx.jpg&quot;) center center;cursor: pointer;}
+	#web a.kj{font-size: 12px;display: block;width: 100px;height: 15px;background: url(&quot;https://itsilen.github.io/onHtmlMode/images/user.jpg&quot;) no-repeat;background-size: 12px 12px; text-indent: 15px;text-decoration: none;color: #666;margin-top: 30px;margin-left: 290px;}
 	#web a.kj:hover{text-decoration: underline;color: #0066ff;}
 	#web form p{margin-top: 15px;}
 	#web form p input.text{height: 40px;width: 350px;padding-left: 10px;font-size: 22px;}
@@ -694,7 +694,7 @@
 			&lt;p&gt;&lt;input class=&quot;submit&quot; type=&quot;submit&quot; placeholder=&quot;密码&quot;&gt;&lt;/p&gt;
 		&lt;/form&gt;
 	&lt;/div&gt;
-	&lt;script src=&quot;/js/jquery.js&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;https://itsilen.github.io/onHtmlMode/js/jquery.js&quot;&gt;&lt;/script&gt;
 	&lt;script&gt;
 	var width = $(window).width();
 	var height = $(window).height();

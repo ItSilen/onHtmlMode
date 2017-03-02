@@ -7,4 +7,8 @@ body{padding-bottom: 40px;min-height: 100%;position: relative;}
 #right{width:800px;float:right;padding:30px 16px;background-color: #fee;line-height: 12px;}
 #right span{font-size: 40px;font-weight: bold;}
 #right #ul li{margin: 10px 0 0 0;}
-.footer{width: 100%;line-height: 40px; background-color: #aaa6ff; margin-top:10px;position:absolute;bottom: 0px; text-align: center;}
+#bthome{width: 60px;position: fixed;top:70%; right: 0;background-color: #ddd;}
+#bthome li{list-style-type: none;text-align: center; }
+#bthome li a{text-decoration:none;display: block;line-height: 30px;font-size: 14px;}
+.bthome{width: 20px;height: 10px;position: fixed;right: 0 center;}
+#footer{width: 100%;line-height: 40px; background-color: #aaa6ff; margin-top:10px;position:absolute;bottom: 0px; text-align: center;}

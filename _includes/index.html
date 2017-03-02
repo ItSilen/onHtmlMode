@@ -1,0 +1,12 @@
+
+<title>{{ page.title }}</title>
+
+<ul id="ul">
+<li>21 Jan 2017<a href="2017-01-21-dbanner.html"> 3d banner</a></li>
+<li>21 Jan 2017<a href="2017-01-21-360login-page.html"> login page</a></li>
+ </ul>
+<ul>
+	　　{% for post in site.posts %}
+　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　{% endfor %}
+</ul>
