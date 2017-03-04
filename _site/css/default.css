@@ -1,10 +1,10 @@
 *{margin: 0;padding:0;}
 html{height: 100%;}
 body{padding-bottom: 40px;min-height: 100%;position: relative;}
-.header{width: 100%;height: 80px;/*border: 1px solid red;*/background-color: #aaa6ff;padding: 10px 20px;}
+.header{height: 80px;/*border: 1px solid red;*/background-color: #aaa6ff;padding: 10px 20px;}
 
 @media screen and (max-width: 992px){
-	.cont{width:100%;margin: 0 auto;}
+	.cont{margin: 0 auto;}
 	#left{height: 150px;padding:30px 16px;background-color: #fdd;}
 	#right{padding:30px 16px;background-color: #fee;line-height: 12px;}
 }
@@ -13,7 +13,7 @@ body{padding-bottom: 40px;min-height: 100%;position: relative;}
 	#left{width:20%;float:left;height: 750px;padding:30px 16px;background-color: #fdd;}
 	#right{width:72.7272727%;float:right;padding:30px 16px;background-color: #fee;line-height: 12px;}
 }
-
+#mdle{background-color: red;}
 #right span{font-size: 40px;font-weight: bold;}
 #right #ul li{margin: 10px 0 0 0;}
 #bthome{width: 60px;position: fixed;top:70%; right: 0;background-color: #ddd;}
