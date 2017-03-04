@@ -1,0 +1,187 @@
+---
+title: 轮播首页
+---
+<!doctype html>
+<html lang="en">
+<head>
+	<!--网页三要素-->
+	<meta charset="UTF-8">
+	<meta name="Keywords" content="关键词"><!--如可根据关键词进行百度搜索，显红的词-->
+	<meta name="Description" content="关键词"><!--如可根据关键词进行百度搜索，显红的词-->
+	<title>轮播首页</title>
+	<!--css层叠样式表 一件美丽的外衣-->
+	<style type="text/css">/*css样式表的衣柜*/
+	*{margin: 0; padding: 0;}
+	ul li{list-style-type: none;}
+	#web{
+		width: 100%;
+		height: 300px;
+		background: #ffff00;
+		position: relative;
+	}
+	#web ul.pic{
+		width: 100%;
+		height: 300px;
+		background: #ff00ff;
+		position: relative;/*相对定位*/
+	}
+	#web ul.pic li{
+		width: 100%;
+		height: 300px;
+		position: absolute;/*绝对定位 以relative定位的web ul作参照物*/
+		left: 0;top: 0;
+		display: none;
+		
+
+		/*border: 1px solid red;*/
+
+	}
+	#web .but{
+		width: 1000px;
+		height: 50px;
+		/*background-color: red;*/
+		position: absolute;
+		left:0;bottom: 0;right: 0;margin: 0 auto;
+/*/*		/*上下0 左右相等 left right一定要 设成最小值对auto有作用*/*/*/
+	}
+	#web .but ul li{
+		width: 100px;
+		height: 50px;
+		float: left;
+		position: relative;
+		margin: 0 5px;
+	}
+
+	#web .but ul li .bg{
+		width: 100px;
+		height: 50px;
+		background: rgba(0,0,0,0.5);
+		position: absolute;
+		left: 0;bottom: 0;
+	}
+	#web .but ul li .bk{
+		width: 96px;
+		height: 46px;
+		border: 2px solid #ffcc33;
+		position: absolute;
+		left: 0;bottom: 0;
+		display: none;
+		
+	}
+	#web .but ul li img{
+		width: 100px;
+		height: 50px;		
+	}
+
+	#web .but ul li.first .bg{
+		display: none;
+	}
+	#web .but ul li.first .bk{
+		display: block;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="web">
+		<ul class="pic">
+			<li style="background: url('images/1.jpg') center center;display:block;"></li>
+			<li style="background: url('images/2.jpg') center center;"></li>
+			<li style="background: url('images/3.jpg') center center;"></li>
+			<li style="background: url('images/4.jpg') center center;"></li>
+			<li style="background: url('images/5.jpg') center center;"></li>
+			<li style="background: url('images/6.jpg') center center;"></li>
+			<li style="background: url('images/7.jpg') center center;"></li>
+			<li style="background: url('images/8.jpg') center center;"></li>
+			<li style="background: url('images/9.jpg') center center;"></li>
+		</ul>
+		<div class="but">
+		<ul >
+			<li class="first">
+				<img src="images/1.jpg" alt="" />
+				<div class="bg"></div>
+				<div class="bk"></div>
+			</li>
+			<li>
+				<img src="images/2.jpg" alt=""/>
+				<div class="bg"></div>
+				<div class="bk"></div>
+			</li>
+			<li>
+				<img src="images/3.jpg" alt=""/>
+				<div class="bg"></div>
+				<div class="bk"></div>
+			</li>
+			<li>
+				<img src="images/4.jpg" alt=""/>
+				<div class="bg"></div>
+				<div class="bk"></div>
+			</li>
+			<li>
+				<img src="images/5.jpg" alt=""/>
+				<div class="bg"></div>
+				<div class="bk"></div>
+			</li>
+			<li>
+				<img src="images/6.jpg" alt=""/>
+				<div class="bg"></div>
+				<div class="bk"></div>
+			</li>
+			<li>
+				<img src="images/7.jpg" alt=""/>
+				<div class="bg"></div>
+				<div class="bk"></div>
+			</li>
+			<li>
+				<img src="images/8.jpg" alt=""/>
+				<div class="bg"></div>
+				<div class="bk"></div>
+			</li>
+			<li>
+				<img src="images/9.jpg" alt=""/>
+				<div class="bg"></div>
+				<div class="bk"></div>
+			</li>
+
+		</ul>
+		</div>
+	</div>
+	<!--div盒子模型 有宽度有高度放内容的长方形区域
+		命名
+		id=""身份证 唯一性
+		class=""名字 类 重用 多个
+		选择器3种：元素 id 类
+	-->
+	<script src="js/jquery.js"></script>
+	<script>//如果放在head里面就要加$(document).ready()
+	
+		var _index = 0;
+		var time;
+		$("#web .but ul li").click(function(){
+			//给当前元素添加first样式，兄弟元素移除样式
+			$(this).addClass("first").siblings("li").removeClass("first");
+			_index = $(this).index();//获取当前下标，也就是第几个索引
+			//alert(_index);
+			//通过eq筛选方法找到对应内容并显示,兄弟元素隐藏
+			$("#web ul.pic li").eq(_index).fadeIn().siblings("li").fadeOut();
+		});
+		$("#web .but ul li").hover(function(){
+			clearInterval(time);
+		},function(){
+			time = setInterval("play()",3000);
+		});
+		function play(){
+			_index ++;
+			if(_index>8){
+				_index = 0;	
+			}
+
+			$("#web .but ul li").eq(_index).addClass("first").siblings("li").removeClass("first");
+			$("#web ul.pic li").eq(_index).fadeIn().siblings("li").fadeOut();
+		};
+		time = setInterval("play()",3000);
+	
+
+	</script>
+</body>
+</html>
