@@ -9,7 +9,7 @@ title: three D旋转banner
 	<style type="text/css" id="css">
 	*{margin: 0;padding: 0;}
 	#banner{width: 810px;height: 360px;/*background: #ffccff;*/margin: 400px auto;perspective:800px;/*视点*/position: relative;}
-	#banner ul li{list-style-type: none;/*width: 160px;*/height: 360px;/*border: 1px solid #f00;*/float: left;position: relative; transform-style:perspective-3d; -webkit-transform-style: preserve-3d; /*子元素保留3d位置*/ -webkit-transform:translateZ(-180px); /*单这样是不行的，只把li往前拉，还需要把6个面拉rotateX才会沿中心转，注意hover的translateZ*/}
+	#banner ul li{list-style-type: none;/*width: 160px;*/height: 360px;/*border: 1px solid #f00;*/float: left;position: relative; transform-style:perspective-3d;-webkit-transform-style: preserve-3d; -webkit-transform:translateZ(-180px);}
 
 	#banner ul li div{list-style-type: none;/*width: 160px;*/height: 360px;/*border: 1px solid #f00;*/float: left;position: absolute;}
 	#banner ul li div:nth-child(1){bottom: 360px;transform-origin:bottom;/*原点*/transform:translateZ(180px) rotateX(90deg);/*transform:translateZ(180px);不能放这里,transform:里面的内容跟下面rotate冲突会覆盖掉*/background-image: url("http://i.imgur.com/0NsldpJ.png");}
@@ -17,26 +17,11 @@ title: three D旋转banner
 	#banner ul li div:nth-child(3){transform:translateZ(180px);background-image: url("images/3.jpg")}
 	#banner ul li div:nth-child(4){transform:translateZ(-180px) rotateX(180deg);/*防止图片倒立*/background-image: url("images/4.jpg")}
 
-/*	#banner ul li div:nth-child(5){width:360px;right: 160px;transform-origin:right;transform:translateZ(180px) rotateY(-90deg);}
-	#banner ul li div:nth-child(6){width:360px;left: 160px;transform-origin:left;transform:translateZ(180px) rotateY(90deg);}*/
-	/*#banner:hover ul li{transform:translateZ(-180px) rotateX(180deg) ;-webkit-transform:translateZ(-180px)  rotateX(180deg) ;/*注意两个动作的顺序，如果先翻转等于翻过来甩出去位移再翻转，会往前翻很多*/
-
-/*	#banner ul li:nth-child(1) div{background-position: 0px;}/*图片拼合技术*/
-/*	#banner ul li:nth-child(2) div{background-position: -160px;}
-	#banner ul li:nth-child(3) div{background-position: -320px;}
-	#banner ul li:nth-child(4) div{background-position: -480px;}
-	#banner ul li:nth-child(5) div{background-position: -640px;}*/
-
-/*	#banner ul li:nth-child(1){transition:1s 0s;}
-	#banner ul li:nth-child(2){transition:1s .1s;}
-	#banner ul li:nth-child(3){transition:1s .2s;}
-	#banner ul li:nth-child(4){transition:1s .3s;}
-	#banner ul li:nth-child(5){transition:1s .4s;}*/
-
 	#banner ol {width: 120px;height: 18px;/*border:1px solid #f00;*/position: absolute;bottom: 10px;right: 10px;}
 	#banner ol li{list-style-type: none;width: 18px;height: 18px;background: #777;border-radius: 9px;color: #fff;font-size: 12px;text-align: center;line-height: 18px;font-family: "Microsoft yahei";float: left;margin: 0 5px;cursor: pointer;box-shadow: 2px 2px 5px #fff}
 	</style>
-	<script type="text/javascript">//纯js
+	<script type="text/javascript">
+	//纯js
 	window.onload = function(){
 		play(40);
 
@@ -85,54 +70,6 @@ title: three D旋转banner
 <body>
 	<div id="banner">
 		<ul id="ul">
-
-			<!-- <li>
-				组合长方体6个面
-				<div>上</div>
-				<div>下</div>
-				<div>前</div>
-				<div>后</div>
-				<div>左</div>
-				<div>右</div>
-			</li>
-			<li>
-				组合长方体6个面
-				<div>上</div>
-				<div>下</div>
-				<div>前</div>
-				<div>后</div>
-				<div>左</div>
-				<div>右</div>
-			</li>
-				<li>
-				组合长方体6个面
-				<div>上</div>
-				<div>下</div>
-				<div>前</div>
-				<div>后</div>
-				<div>左</div>
-				<div>右</div>
-			</li>
-
-			<li style="z-index:-1"> 不然重叠顺序比前面的高会覆盖透视
-				组合长方体6个面
-				<div>上</div>
-				<div>下</div>
-				<div>前</div>
-				<div>后</div>
-				<div>左</div>
-				<div>右</div>
-			</li>
-			<li style="z-index:-2">
-				组合长方体6个面
-				<div>上</div>
-				<div>下</div>
-				<div>前</div>
-				<div>后</div>
-				<div>左</div>
-				<div>右</div>
-			</li>  -->
-			
 		</ul>
 		<ol id="ol">
 				<li style="background-color:#f40">1</li>
