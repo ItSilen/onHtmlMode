@@ -1,7 +1,7 @@
 *{margin: 0;padding:0;}
 html{height: 100%;}
 body{padding-bottom: 40px;min-height: 100%;position: relative;}
-.header{height: 80px;/*border: 1px solid red;*/background-color: #aaa6ff;padding: 10px 20px;}
+.header{height: 80px;/*border: 1px solid red;*/background-color: #aaa6ff;}
 
 @media screen and (max-width: 992px){
 	.cont{width:100%;margin: 0;}
