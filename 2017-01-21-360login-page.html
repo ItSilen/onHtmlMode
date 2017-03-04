@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<!--ÍøÒ³ÈıÒªËØ-->
+	<!--ç½‘é¡µä¸‰è¦ç´ -->
 	<meta charset="UTF-8">
-	<meta name="Keywords" content="¹Ø¼ü´Ê"><!--Èç¿É¸ù¾İ¹Ø¼ü´Ê½øĞĞ°Ù¶ÈËÑË÷£¬ÏÔºìµÄ´Ê-->
-	<meta name="Description" content="¹Ø¼ü´Ê"><!--Èç¿É¸ù¾İ¹Ø¼ü´Ê½øĞĞ°Ù¶ÈËÑË÷£¬ÏÔºìµÄ´Ê-->
-	<title>WebÇ°¶ËÍøÒ³¿ª·¢ÊµÕ½½Ì³Ì 360Ê×Ò³¿ª·¢</title>
-	<!--css²ãµşÑùÊ½±í Ò»¼şÃÀÀöµÄÍâÒÂ-->
-	<style type="text/css">/*cssÑùÊ½±íµÄÒÂ¹ñ*/
+	<meta name="Keywords" content="å…³é”®è¯"><!--å¦‚å¯æ ¹æ®å…³é”®è¯è¿›è¡Œç™¾åº¦æœç´¢ï¼Œæ˜¾çº¢çš„è¯-->
+	<meta name="Description" content="å…³é”®è¯"><!--å¦‚å¯æ ¹æ®å…³é”®è¯è¿›è¡Œç™¾åº¦æœç´¢ï¼Œæ˜¾çº¢çš„è¯-->
+	<title>Webå‰ç«¯ç½‘é¡µå¼€å‘å®æˆ˜æ•™ç¨‹ 360é¦–é¡µå¼€å‘</title>
+	<!--csså±‚å æ ·å¼è¡¨ ä¸€ä»¶ç¾ä¸½çš„å¤–è¡£-->
+	<style type="text/css">/*cssæ ·å¼è¡¨çš„è¡£æŸœ*/
 	*{margin: 0; padding: 0;}
 	ul li{list-style-type: none;}
 	#web{
@@ -20,12 +20,12 @@
 		width: 100%;
 		height: 300px;
 		background: #ff00ff;
-		position: relative;/*Ïà¶Ô¶¨Î»*/
+		position: relative;/*ç›¸å¯¹å®šä½*/
 	}
 	#web ul.pic li{
 		width: 100%;
 		height: 300px;
-		position: absolute;/*¾ø¶Ô¶¨Î» ÒÔrelative¶¨Î»µÄweb ul×÷²ÎÕÕÎï*/
+		position: absolute;/*ç»å¯¹å®šä½ ä»¥relativeå®šä½çš„web ulä½œå‚ç…§ç‰©*/
 		left: 0;top: 0;
 		display: none;
 		
@@ -38,7 +38,7 @@
 		height: 50px;
 		/*background-color: red;*/
 		position: absolute;
-		left:0;bottom: 0;right: 0;margin: 0 auto/*ÉÏÏÂ0 ×óÓÒÏàµÈ left rightÒ»¶¨Òª Éè³É×îĞ¡Öµ¶ÔautoÓĞ×÷ÓÃ*/
+		left:0;bottom: 0;right: 0;margin: 0 auto/*ä¸Šä¸‹0 å·¦å³ç›¸ç­‰ left rightä¸€å®šè¦ è®¾æˆæœ€å°å€¼å¯¹autoæœ‰ä½œç”¨*/
 	}
 	#web .but ul li{
 		width: 100px;
@@ -142,23 +142,23 @@
 		</ul>
 		</div>
 	</div>
-	<!--divºĞ×ÓÄ£ĞÍ ÓĞ¿í¶ÈÓĞ¸ß¶È·ÅÄÚÈİµÄ³¤·½ĞÎÇøÓò
-		ÃüÃû
-		id=""Éí·İÖ¤ Î¨Ò»ĞÔ
-		class=""Ãû×Ö Àà ÖØÓÃ ¶à¸ö
-		Ñ¡ÔñÆ÷3ÖÖ£ºÔªËØ id Àà
+	<!--divç›’å­æ¨¡å‹ æœ‰å®½åº¦æœ‰é«˜åº¦æ”¾å†…å®¹çš„é•¿æ–¹å½¢åŒºåŸŸ
+		å‘½å
+		id=""èº«ä»½è¯ å”¯ä¸€æ€§
+		class=""åå­— ç±» é‡ç”¨ å¤šä¸ª
+		é€‰æ‹©å™¨3ç§ï¼šå…ƒç´  id ç±»
 	-->
 	<script src="js/jquery.js"></script>
-	<script>//Èç¹û·ÅÔÚheadÀïÃæ¾ÍÒª¼Ó$(document).ready()
+	<script>//å¦‚æœæ”¾åœ¨headé‡Œé¢å°±è¦åŠ $(document).ready()
 	
 		var _index = 0;
 		var time;
 		$("#web .but ul li").click(function(){
-			//¸øµ±Ç°ÔªËØÌí¼ÓfirstÑùÊ½£¬ĞÖµÜÔªËØÒÆ³ıÑùÊ½
+			//ç»™å½“å‰å…ƒç´ æ·»åŠ firstæ ·å¼ï¼Œå…„å¼Ÿå…ƒç´ ç§»é™¤æ ·å¼
 			$(this).addClass("first").siblings("li").removeClass("first");
-			_index = $(this).index();//»ñÈ¡µ±Ç°ÏÂ±ê£¬Ò²¾ÍÊÇµÚ¼¸¸öË÷Òı
+			_index = $(this).index();//è·å–å½“å‰ä¸‹æ ‡ï¼Œä¹Ÿå°±æ˜¯ç¬¬å‡ ä¸ªç´¢å¼•
 			//alert(_index);
-			//Í¨¹ıeqÉ¸Ñ¡·½·¨ÕÒµ½¶ÔÓ¦ÄÚÈİ²¢ÏÔÊ¾,ĞÖµÜÔªËØÒş²Ø
+			//é€šè¿‡eqç­›é€‰æ–¹æ³•æ‰¾åˆ°å¯¹åº”å†…å®¹å¹¶æ˜¾ç¤º,å…„å¼Ÿå…ƒç´ éšè—
 			$("#web ul.pic li").eq(_index).fadeIn().siblings("li").fadeOut();
 		});
 		$("#web .but ul li").hover(function(){
