@@ -1,27 +1,27 @@
 <!doctype html>
 <html lang="en">
 ---
-title: 3dĞı×ªbanner
+title: 3dæ—‹è½¬banner
 ---
 <head>
-	<meta charset="UTF-8/gbk">
+	<meta charset="UTF-8">
 	<title>Document</title>
 	<style type="text/css" id="css">
 	*{margin: 0;padding: 0;}
-	#banner{width: 810px;height: 360px;/*background: #ffccff;*/margin: 400px auto;perspective:800px;/*ÊÓµã*/position: relative;}
-	#banner ul li{list-style-type: none;/*width: 160px;*/height: 360px;/*border: 1px solid #f00;*/float: left;position: relative;transform-style:perspective-3d;-webkit-transform-style: preserve-3d;/*×ÓÔªËØ±£Áô3dÎ»ÖÃ*/-webkit-transform:translateZ(-180px); /*µ¥ÕâÑùÊÇ²»ĞĞµÄ£¬Ö»°ÑliÍùÇ°À­£¬»¹ĞèÒª°Ñ6¸öÃæÀ­rotateX²Å»áÑØÖĞĞÄ×ª£¬×¢ÒâhoverµÄtranslateZ*/}
+	#banner{width: 810px;height: 360px;/*background: #ffccff;*/margin: 400px auto;perspective:800px;/*è§†ç‚¹*/position: relative;}
+	#banner ul li{list-style-type: none;/*width: 160px;*/height: 360px;/*border: 1px solid #f00;*/float: left;position: relative;transform-style:perspective-3d;-webkit-transform-style: preserve-3d;/*å­å…ƒç´ ä¿ç•™3dä½ç½®*/-webkit-transform:translateZ(-180px); /*å•è¿™æ ·æ˜¯ä¸è¡Œçš„ï¼ŒåªæŠŠliå¾€å‰æ‹‰ï¼Œè¿˜éœ€è¦æŠŠ6ä¸ªé¢æ‹‰rotateXæ‰ä¼šæ²¿ä¸­å¿ƒè½¬ï¼Œæ³¨æ„hoverçš„translateZ*/}
 
 	#banner ul li div{list-style-type: none;/*width: 160px;*/height: 360px;/*border: 1px solid #f00;*/float: left;position: absolute;}
-	#banner ul li div:nth-child(1){bottom: 360px;transform-origin:bottom;/*Ô­µã*/transform:translateZ(180px) rotateX(90deg);/*transform:translateZ(180px);²»ÄÜ·ÅÕâÀï,transform:ÀïÃæµÄÄÚÈİ¸úÏÂÃærotate³åÍ»»á¸²¸Çµô*/background-image: url("http://i.imgur.com/0NsldpJ.png");}
+	#banner ul li div:nth-child(1){bottom: 360px;transform-origin:bottom;/*åŸç‚¹*/transform:translateZ(180px) rotateX(90deg);/*transform:translateZ(180px);ä¸èƒ½æ”¾è¿™é‡Œ,transform:é‡Œé¢çš„å†…å®¹è·Ÿä¸‹é¢rotateå†²çªä¼šè¦†ç›–æ‰*/background-image: url("http://i.imgur.com/0NsldpJ.png");}
 	#banner ul li div:nth-child(2){top: 360px;transform-origin:top;transform:translateZ(180px) rotateX(-90deg);background-image: url("images/2.jpg")}
 	#banner ul li div:nth-child(3){transform:translateZ(180px);background-image: url("images/3.jpg")}
-	#banner ul li div:nth-child(4){transform:translateZ(-180px) rotateX(180deg);/*·ÀÖ¹Í¼Æ¬µ¹Á¢*/background-image: url("images/4.jpg")}
+	#banner ul li div:nth-child(4){transform:translateZ(-180px) rotateX(180deg);/*é˜²æ­¢å›¾ç‰‡å€’ç«‹*/background-image: url("images/4.jpg")}
 
 /*	#banner ul li div:nth-child(5){width:360px;right: 160px;transform-origin:right;transform:translateZ(180px) rotateY(-90deg);}
 	#banner ul li div:nth-child(6){width:360px;left: 160px;transform-origin:left;transform:translateZ(180px) rotateY(90deg);}*/
-	/*#banner:hover ul li{transform:translateZ(-180px) rotateX(180deg) ;-webkit-transform:translateZ(-180px)  rotateX(180deg) ;/*×¢ÒâÁ½¸ö¶¯×÷µÄË³Ğò£¬Èç¹ûÏÈ·­×ªµÈÓÚ·­¹ıÀ´Ë¦³öÈ¥Î»ÒÆÔÙ·­×ª£¬»áÍùÇ°·­ºÜ¶à*/
+	/*#banner:hover ul li{transform:translateZ(-180px) rotateX(180deg) ;-webkit-transform:translateZ(-180px)  rotateX(180deg) ;/*æ³¨æ„ä¸¤ä¸ªåŠ¨ä½œçš„é¡ºåºï¼Œå¦‚æœå…ˆç¿»è½¬ç­‰äºç¿»è¿‡æ¥ç”©å‡ºå»ä½ç§»å†ç¿»è½¬ï¼Œä¼šå¾€å‰ç¿»å¾ˆå¤š*/
 
-/*	#banner ul li:nth-child(1) div{background-position: 0px;}/*Í¼Æ¬Æ´ºÏ¼¼Êõ*/
+/*	#banner ul li:nth-child(1) div{background-position: 0px;}/*å›¾ç‰‡æ‹¼åˆæŠ€æœ¯*/
 /*	#banner ul li:nth-child(2) div{background-position: -160px;}
 	#banner ul li:nth-child(3) div{background-position: -320px;}
 	#banner ul li:nth-child(4) div{background-position: -480px;}
@@ -36,7 +36,7 @@ title: 3dĞı×ªbanner
 	#banner ol {width: 120px;height: 18px;/*border:1px solid #f00;*/position: absolute;bottom: 10px;right: 10px;}
 	#banner ol li{list-style-type: none;width: 18px;height: 18px;background: #777;border-radius: 9px;color: #fff;font-size: 12px;text-align: center;line-height: 18px;font-family: "Microsoft yahei";float: left;margin: 0 5px;cursor: pointer;box-shadow: 2px 2px 5px #fff}
 	</style>
-	<script type="text/javascript">//´¿js
+	<script type="text/javascript">//çº¯js
 	window.onload = function(){
 		play(40);
 
@@ -44,7 +44,7 @@ title: 3dĞı×ªbanner
 			var ol = document.getElementById("ol");
 			var ul = document.getElementById("ul");
 			var oLi = ol.getElementsByTagName("li");
-			var css = document.getElementById("css");//ÆæÌØ
+			var css = document.getElementById("css");//å¥‡ç‰¹
 			var wid = 800 / num;
 			var uLi = null;
 			var uHTML = "", pHTML = "", zHTML = "", z = 0, tHTML = "";	
@@ -52,29 +52,29 @@ title: 3dĞı×ªbanner
 			for(var i=0;i<num;i++){
 				if(i>num/2){
 					z--;
-					zHTML += "#banner ul li:nth-child(" + (i+1) +"){z-index:" + z + ";}"//·ÀÖ¹ÖĞ¼ä¹ıºóµÄliÖØµş¸²¸ÇÇ°ÃæµÄ
+					zHTML += "#banner ul li:nth-child(" + (i+1) +"){z-index:" + z + ";}"//é˜²æ­¢ä¸­é—´è¿‡åçš„lié‡å è¦†ç›–å‰é¢çš„
 					
 				}
-				tHTML += "#banner ul li:nth-child(" + (i+1) +"){transition: 1s " + 0.5*i/num + "s;}"//¶¯»­Ê±¼ä¿ØÖÆ,I/num×î´óµÄÊ±ºòi=numÒ²¾ÍÊÇ½á¹ûµÈÓÚ1,Ò²¾ÍÊÇËµ²»¹ÜÔö¼Ó¶àÉÙ¸öli×î´óµÄÊ±¼äÓÀÔ¶ÊÇ0.5*1=0.5s
-				uHTML += "<li><div></div><div></div><div></div><div></div></li>" //²»ÄÜ»Ø³µ
+				tHTML += "#banner ul li:nth-child(" + (i+1) +"){transition: 1s " + 0.5*i/num + "s;}"//åŠ¨ç”»æ—¶é—´æ§åˆ¶,I/numæœ€å¤§çš„æ—¶å€™i=numä¹Ÿå°±æ˜¯ç»“æœç­‰äº1,ä¹Ÿå°±æ˜¯è¯´ä¸ç®¡å¢åŠ å¤šå°‘ä¸ªliæœ€å¤§çš„æ—¶é—´æ°¸è¿œæ˜¯0.5*1=0.5s
+				uHTML += "<li><div></div><div></div><div></div><div></div></li>" //ä¸èƒ½å›è½¦
 				pHTML +=  "#banner ul li:nth-child(" + (i+1) +") div{background-position:" + (-i*wid) + "px;}"
-				//liµÄ±³¾°Í¼Æ¬Æ´ºÏ
+				//liçš„èƒŒæ™¯å›¾ç‰‡æ‹¼åˆ
 			}
 			ul.innerHTML = uHTML;
-			css.innerHTML += pHTML + zHTML + tHTML + "#banner ul li{width:" + wid + "px;}#banner ul li div{width:" + wid + "px;}"//cssÊôĞÔjs¿ØÖÆ
+			css.innerHTML += pHTML + zHTML + tHTML + "#banner ul li{width:" + wid + "px;}#banner ul li div{width:" + wid + "px;}"//csså±æ€§jsæ§åˆ¶
 
 			uLi = ul.getElementsByTagName("li");
 
 			for(var i=0;i<oLi.length;i++){
-				oLi[i].index = i;//×Ô¶¨ÒåÒ»¸öindexÊôĞÔ
+				oLi[i].index = i;//è‡ªå®šä¹‰ä¸€ä¸ªindexå±æ€§
 				oLi[i].onclick = function(){
 					// alert("a")
 					// for(var j=0;j<uLi.length;j++){
-						// uLi[j].style.transform = "translateZ(-180px)  rotateX(" + this.index * 90 + "deg)";}//Ê¹Ã¿¸ö°´Å¥µã»÷Ğı×ªµÄ½Ç¶È²»Ò»Ñù,uLiÊÇÒ»¸ö¼¯ºÏÒ»¶¨ÒªÓĞË÷ÒıÖµ[]£¬ÕâÀï×îºÃÓÃÉÏÃæµÄinnerhtml·½·¨£¬ÈçÏÂÃæ
-						// jsÃ»ÓĞjqueryµÄindex()º¯Êı;
+						// uLi[j].style.transform = "translateZ(-180px)  rotateX(" + this.index * 90 + "deg)";}//ä½¿æ¯ä¸ªæŒ‰é’®ç‚¹å‡»æ—‹è½¬çš„è§’åº¦ä¸ä¸€æ ·,uLiæ˜¯ä¸€ä¸ªé›†åˆä¸€å®šè¦æœ‰ç´¢å¼•å€¼[]ï¼Œè¿™é‡Œæœ€å¥½ç”¨ä¸Šé¢çš„innerhtmlæ–¹æ³•ï¼Œå¦‚ä¸‹é¢
+						// jsæ²¡æœ‰jqueryçš„index()å‡½æ•°;
 					css.innerHTML += "#banner ul li{transform:translateZ(-180px) rotateX(" + this.index * 90 + "deg)}";
 					for(var k=0;k<oLi.length;k++){
-						k == this.index ? oLi[k].style.backgroundColor = '#f40' : oLi[k].style.backgroundColor = '#777';//°´Å¥ÑÕÉ«¿ØÖÆ
+						k == this.index ? oLi[k].style.backgroundColor = '#f40' : oLi[k].style.backgroundColor = '#777';//æŒ‰é’®é¢œè‰²æ§åˆ¶
 					}
 				}
 			}
@@ -87,50 +87,50 @@ title: 3dĞı×ªbanner
 		<ul id="ul">
 
 			<!-- <li>
-				×éºÏ³¤·½Ìå6¸öÃæ
-				<div>ÉÏ</div>
-				<div>ÏÂ</div>
-				<div>Ç°</div>
-				<div>ºó</div>
-				<div>×ó</div>
-				<div>ÓÒ</div>
+				ç»„åˆé•¿æ–¹ä½“6ä¸ªé¢
+				<div>ä¸Š</div>
+				<div>ä¸‹</div>
+				<div>å‰</div>
+				<div>å</div>
+				<div>å·¦</div>
+				<div>å³</div>
 			</li>
 			<li>
-				×éºÏ³¤·½Ìå6¸öÃæ
-				<div>ÉÏ</div>
-				<div>ÏÂ</div>
-				<div>Ç°</div>
-				<div>ºó</div>
-				<div>×ó</div>
-				<div>ÓÒ</div>
+				ç»„åˆé•¿æ–¹ä½“6ä¸ªé¢
+				<div>ä¸Š</div>
+				<div>ä¸‹</div>
+				<div>å‰</div>
+				<div>å</div>
+				<div>å·¦</div>
+				<div>å³</div>
 			</li>
 				<li>
-				×éºÏ³¤·½Ìå6¸öÃæ
-				<div>ÉÏ</div>
-				<div>ÏÂ</div>
-				<div>Ç°</div>
-				<div>ºó</div>
-				<div>×ó</div>
-				<div>ÓÒ</div>
+				ç»„åˆé•¿æ–¹ä½“6ä¸ªé¢
+				<div>ä¸Š</div>
+				<div>ä¸‹</div>
+				<div>å‰</div>
+				<div>å</div>
+				<div>å·¦</div>
+				<div>å³</div>
 			</li>
 
-			<li style="z-index:-1"> ²»È»ÖØµşË³Ğò±ÈÇ°ÃæµÄ¸ß»á¸²¸ÇÍ¸ÊÓ
-				×éºÏ³¤·½Ìå6¸öÃæ
-				<div>ÉÏ</div>
-				<div>ÏÂ</div>
-				<div>Ç°</div>
-				<div>ºó</div>
-				<div>×ó</div>
-				<div>ÓÒ</div>
+			<li style="z-index:-1"> ä¸ç„¶é‡å é¡ºåºæ¯”å‰é¢çš„é«˜ä¼šè¦†ç›–é€è§†
+				ç»„åˆé•¿æ–¹ä½“6ä¸ªé¢
+				<div>ä¸Š</div>
+				<div>ä¸‹</div>
+				<div>å‰</div>
+				<div>å</div>
+				<div>å·¦</div>
+				<div>å³</div>
 			</li>
 			<li style="z-index:-2">
-				×éºÏ³¤·½Ìå6¸öÃæ
-				<div>ÉÏ</div>
-				<div>ÏÂ</div>
-				<div>Ç°</div>
-				<div>ºó</div>
-				<div>×ó</div>
-				<div>ÓÒ</div>
+				ç»„åˆé•¿æ–¹ä½“6ä¸ªé¢
+				<div>ä¸Š</div>
+				<div>ä¸‹</div>
+				<div>å‰</div>
+				<div>å</div>
+				<div>å·¦</div>
+				<div>å³</div>
 			</li>  -->
 			
 		</ul>
