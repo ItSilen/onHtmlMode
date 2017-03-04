@@ -2,13 +2,14 @@
 html{height: 100%;}
 body{padding-bottom: 40px;min-height: 100%;position: relative;}
 .header{width: 100%;height: 80px;/*border: 1px solid red;*/background-color: #aaa6ff;padding: 10px 20px;}
-.cont{width:83.333%;margin: 10px auto 10px;overflow: hidden;}
+
 @media screen and (max-width: 992px){
-	.cont{width:100%;margin: 10px auto 10px;}
+	.cont{width:100%;margin: 0 auto;}
 	#left{height: 150px;padding:30px 16px;background-color: #fdd;}
 	#right{padding:30px 16px;background-color: #fee;line-height: 12px;}
 }
 @media screen and (min-width: 992px){
+	.cont{width:83.333%;margin: 10px auto 10px;overflow: hidden;}
 	#left{width:20%;float:left;height: 750px;padding:30px 16px;background-color: #fdd;}
 	#right{width:72.7272727%;float:right;padding:30px 16px;background-color: #fee;line-height: 12px;}
 }
@@ -19,4 +20,4 @@ body{padding-bottom: 40px;min-height: 100%;position: relative;}
 #bthome li{list-style-type: none;text-align: center; }
 #bthome li a{text-decoration:none;display: block;line-height: 30px;font-size: 14px;}
 .bthome{width: 20px;height: 10px;position: fixed;right: 0 center;}
-#footer{width: 100%;line-height: 40px; background-color: #aaa6ff; margin-top:10px;position:absolute;bottom: 0px; text-align: center;}
+#footer{width: 100%;line-height: 40px; background-color: #aaa6ff; position:absolute;bottom: 0px; text-align: center;}
