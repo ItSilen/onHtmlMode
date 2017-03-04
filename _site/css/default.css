@@ -13,7 +13,7 @@ body{padding-bottom: 40px;min-height: 100%;position: relative;}
 	#left{width:20%;float:left;height: 750px;padding:30px 16px;background-color: #fdd;}
 	#right{width:72.7272727%;float:right;padding:30px 16px;background-color: #fee;line-height: 12px;}
 }
-#mdle{background-color: red;}
+
 #right span{font-size: 40px;font-weight: bold;}
 #right #ul li{margin: 10px 0 0 0;}
 #bthome{width: 60px;position: fixed;top:70%; right: 0;background-color: #ddd;}
