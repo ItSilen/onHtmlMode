@@ -4,7 +4,7 @@ body{padding-bottom: 40px;min-height: 100%;position: relative;}
 .header{height: 80px;/*border: 1px solid red;*/background-color: #aaa6ff;padding: 10px 20px;}
 
 @media screen and (max-width: 992px){
-	body{padding-bottom: 40px;min-height: 100%;position: relative;overflow-y:hidden; }
+	body{padding-bottom: 40px;min-height: 100%;position: relative;overflow-x:hidden; }
 	.cont{width:100%;margin: 0 auto;}
 	#left{height: 150px;padding:30px 16px;background-color: #fdd;}
 	#right{padding:30px 16px;background-color: #fee;line-height: 12px;}
